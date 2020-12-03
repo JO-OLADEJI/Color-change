@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: 'great vibes';
+    src: url('../fonts/Great_Vibes/GreatVibes-Regular.ttf');
+}
+body {
+    overflow: hidden;
+    background-color: rgb(39, 39, 39);
+}
+.space {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    .title {
+        text-align: center;
+        font-family: 'great vibes';
+        font-size: 5rem;
+        padding-top: 3rem;
+        color: white;
+    }
+    .container {
+        height: 40%;
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .object {
+            height: 2rem;
+            width: 2rem;
+            margin: .5rem;
+        }
+        .marigold {
+            background-color: #fce306;
+        }
+        .orange {
+            background-color: #f89317;
+        }
+        .orange-pink {
+            background-color: #fc5432;
+        }
+        .selection {
+            text-align: center;
+            transform: translate(0, -200px);
+            #options {
+                width: 12rem;
+                height: 4rem;
+                border: 2px solid black;
+                font-size: 2rem;
+            }
+        }
+    }
+}
